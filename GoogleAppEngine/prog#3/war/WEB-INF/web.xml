@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<!-- <servlet>
+		<servlet-name>Cloudassignthree</servlet-name>
+		<servlet-class>assignment3.CloudassignthreeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cloudassignthree</servlet-name>
+		<url-pattern>/cloudassignthree</url-pattern>
+	</servlet-mapping>
+	 -->
+  <servlet>
+    <servlet-name>uploadfile</servlet-name>
+    <servlet-class>assignment3.uploadfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>uploadfile</servlet-name>
+    <url-pattern>/uploadfile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>checkfile</servlet-name>
+    <servlet-class>assignment3.checkfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkfile</servlet-name>
+    <url-pattern>/checkfile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>deletefile</servlet-name>
+    <servlet-class>assignment3.deletefile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deletefile</servlet-name>
+    <url-pattern>/deletefile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>listfile</servlet-name>
+    <servlet-class>assignment3.listfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>listfile</servlet-name>
+    <url-pattern>/listfile</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
